@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [instatest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="logintest(failed)">
+    <parameter name="password" value="racha123"/>
+    <parameter name="url" value="https://www.instagram.com/"/>
+    <parameter name="username" value="pavan_kumar_racha_542"/>
+    <classes>
+      <class name="com.parameters.Parameterstest">
+        <methods>
+          <include name="logininsta" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.Parameterstest -->
+    </classes>
+  </test> <!-- logintest(failed) -->
+</suite> <!-- Failed suite [instatest] -->

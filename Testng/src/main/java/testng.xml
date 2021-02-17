@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="instatest" verbose="1" >
+  <test name="logintest" >
+  
+   <parameter name="url"  value="https://www.facebook.com/"/>
+    <parameter name="username"  value="pavan_kumar_racha_542"/>
+     <parameter name="password"  value="racha123"/>
+  
+    <classes>
+       <class name="com.parameters.Parameterstest" />
+    </classes>
+  </test>
+ 
+  
+  
+</suite>
+
+
+
+
